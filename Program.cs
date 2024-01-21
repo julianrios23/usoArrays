@@ -38,7 +38,13 @@ internal class Program
         new {nombre="Morena", edad=13}
 
         };
-        WriteLine(personas[2]);
+        //WriteLine(personas[2]);
+
+        for (int i = 0; i < 3; i++)
+        {
+            Console.WriteLine(valores[i]);
+
+        }
 
     }
     class Empleados
